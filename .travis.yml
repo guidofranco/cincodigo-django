@@ -3,6 +3,7 @@ install:
   - pip install django
 deploy:
   provider: heroku
+  buildpack: python
   api_key:
     secure: 77efd634-3147-464a-8c9d-cacb20c09140
   app: cincodigo
