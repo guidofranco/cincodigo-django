@@ -1,3 +1,9 @@
-from django.test import TestCase
+from django.test import SimpleTestCase
 
-# Create your tests here.
+
+class IndexTestCase(SimpleTestCase):
+
+    def test_request_index(self):
+        response = self.client.get('/')
+        self.assertContains(response, 'Hello, world!', status_code=200)
+        
