@@ -10,4 +10,4 @@ Para correr el test: python manage.py test
 
 Procfile es un archivo que contiene los comandos que Heroku debe ejecutar para iniciar la aplicación
 
-Heroku conoce el lenguaje de la aplicacion a ejecutar (y su versión) a partir del archivo runtime.txt
+Heroku conoce el lenguaje de la aplicacion a ejecutar (y su versión) a partir del archivo runtime.txt y requirements.txt
