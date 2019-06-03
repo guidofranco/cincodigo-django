@@ -25,7 +25,7 @@ SECRET_KEY = '#x5d&ggu5fp)sgj*pdf5-sgu3_2qrg_j99+rhvv@i%w^#-4fs#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ["cincodigo.herokuapp.com/"]
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
