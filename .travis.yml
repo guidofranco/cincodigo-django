@@ -11,3 +11,4 @@ deploy:
     repo: guidofranco/cincodigo-django
 script:
   - python manage.py test
+  - heroku config:set DISABLE_COLLECTSTATIC=1
