@@ -7,6 +7,6 @@ deploy:
     secure: 77efd634-3147-464a-8c9d-cacb20c09140
   app: cincodigo
   on:
-    repo: cincodigo/cincodigo-django
+    repo: guidofranco/cincodigo-django
 script:
   - python manage.py test
