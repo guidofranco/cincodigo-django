@@ -5,5 +5,5 @@ class IndexTestCase(SimpleTestCase):
 
     def test_request_index(self):
         response = self.client.get('/')
-        self.assertContains(response, 'Hello, world!', status_code=200)
+        self.assertContains(response, 'Hola mundo', status_code=200)
         
