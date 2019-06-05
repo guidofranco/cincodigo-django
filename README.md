@@ -16,4 +16,4 @@ Heroku reconoce el lenguaje de la aplicacion a ejecutar (y su versión) a partir
 
 Las modificaciones se hacen sobre el archivo myapp/views.py, aquí se crea una sola vista
 
-El test se define en myapp/tests.py, el cual se realiza sobre la vista anterior, verificando que exista un "Hello, world" en todo el contenido
+El test se define en myapp/tests.py, el cual se realiza sobre la vista anterior, verificando que exista un "Hello, world" en todo el contenido.
