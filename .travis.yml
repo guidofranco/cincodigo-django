@@ -11,3 +11,5 @@ deploy:
     repo: guidofranco/cincodigo-django
 script:
   - python manage.py test
+notifications:
+  slack: cincodigo:Hib7R9oN4qvOQ3y0PoBMbKLZ
