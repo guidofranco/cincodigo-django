@@ -9,7 +9,8 @@ deploy:
   app: cincodigo
   on:
     repo: guidofranco/cincodigo-django
-python manage.py collectstatic
+before_script:
+  - python manage.py collectstatic
 script:
   - python manage.py test
 notifications:
